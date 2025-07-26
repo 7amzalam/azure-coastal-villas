@@ -1,0 +1,358 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azure Coastal Villas | Luxury Oceanfront Living</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body class="font-sans bg-beige text-deep-blue">
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-white bg-opacity-90 backdrop-blur-sm py-4 px-6 shadow-sm">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="flex items-center">
+                <div class="text-2xl font-serif font-bold text-deep-blue">Azure Coastal</div>
+                <div class="h-8 w-px bg-deep-blue mx-4 opacity-30"></div>
+                <div class="text-sm uppercase tracking-widest text-gold">Villas</div>
+            </div>
+            
+            <div class="hidden md:flex space-x-8">
+                <a href="#features" class="text-deep-blue hover:text-gold transition">Features</a>
+                <a href="#gallery" class="text-deep-blue hover:text-gold transition">Gallery</a>
+                <a href="#floorplans" class="text-deep-blue hover:text-gold transition">Floor Plans</a>
+                <a href="#contact" class="text-deep-blue hover:text-gold transition">Private Tour</a>
+            </div>
+            
+            <div class="flex items-center">
+                <a href="tel:+18005551234" class="hidden lg:flex items-center mr-6 text-deep-blue hover:text-gold transition">
+                    <i class="fas fa-phone mr-2"></i>
+                    <span>+1 (800) 555-1234</span>
+                </a>
+                <button class="btn-gold text-white py-2 px-6 rounded-full font-medium">Request Info</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-bg min-h-screen flex items-center pt-16">
+        <div class="max-w-7xl mx-auto px-6 py-24 text-center">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-gold text-lg mb-4 font-serif italic">Exclusive Oceanfront Residences</div>
+                <h1 class="text-5xl md:text-7xl font-serif font-bold text-white leading-tight mb-6">
+                    Where the Sky Meets the Ocean
+                </h1>
+                <p class="text-xl text-white opacity-90 mb-10 max-w-2xl mx-auto">
+                    An extraordinary lifestyle at Azure Coastal Villas. Discover the meaning of luxury and tranquility.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    <button class="btn-gold text-white py-4 px-8 rounded-full text-lg font-medium transform transition hover:scale-105">
+                        Request Private Tour
+                    </button>
+                    <button class="bg-transparent border-2 border-white text-white py-4 px-8 rounded-full text-lg font-medium transform transition hover:scale-105">
+                        View Gallery
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Intro Section -->
+    <section class="py-20 bg-sand">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-4xl font-serif font-bold text-deep-blue mb-6">
+                    Exclusive Private Villas Starting From 3-Bedrooms
+                </h2>
+                <p class="text-xl text-deep-blue opacity-80 mb-10">
+                    Each residence at Azure Coastal Villas is meticulously designed to capture panoramic sea views, featuring private pools and unparalleled amenities that redefine coastal luxury living.
+                </p>
+            </div>
+            
+            <div class="mt-16 relative">
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/ScMzIvxBSi4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="section-title text-4xl font-serif font-bold text-deep-blue">
+                    Exceptional Amenities
+                </h2>
+                <p class="text-xl text-deep-blue opacity-80 max-w-2xl mx-auto">
+                    Experience a lifestyle of unparalleled luxury with our world-class amenities and services.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Feature 1 -->
+                <div class="feature-card bg-beige rounded-xl p-8 text-center border-gold">
+                    <div class="w-16 h-16 rounded-full gold-gradient flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-swimming-pool text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-serif font-bold text-deep-blue mb-3">Private Pools</h3>
+                    <p class="text-deep-blue opacity-80">Each villa features an infinity-edge pool with panoramic ocean views, designed for ultimate relaxation.</p>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="feature-card bg-beige rounded-xl p-8 text-center border-gold">
+                    <div class="w-16 h-16 rounded-full gold-gradient flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-shield-alt text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-serif font-bold text-deep-blue mb-3">24/7 Security</h3>
+                    <p class="text-deep-blue opacity-80">State-of-the-art security systems and personnel ensure your privacy and peace of mind.</p>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="feature-card bg-beige rounded-xl p-8 text-center border-gold">
+                    <div class="w-16 h-16 rounded-full gold-gradient flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-dumbbell text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-serif font-bold text-deep-blue mb-3">Health Club</h3>
+                    <p class="text-deep-blue opacity-80">A world-class fitness center with personal trainers, spa services, and wellness programs.</p>
+                </div>
+                
+                <!-- Feature 4 -->
+                <div class="feature-card bg-beige rounded-xl p-8 text-center border-gold">
+                    <div class="w-16 h-16 rounded-full gold-gradient flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-umbrella-beach text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-serif font-bold text-deep-blue mb-3">Beach Access</h3>
+                    <p class="text-deep-blue opacity-80">Private access to pristine white-sand beaches exclusively for Azure Coastal residents.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-20 bg-sand">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="section-title text-4xl font-serif font-bold text-deep-blue">
+                    Visual Journey
+                </h2>
+                <p class="text-xl text-deep-blue opacity-80 max-w-2xl mx-auto">
+                    Explore the breathtaking beauty and architectural excellence of Azure Coastal Villas.
+                </p>
+            </div>
+            
+            <div class="gallery-grid">
+                <!-- Gallery Item 1 -->
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1600585152915-d208bec867a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Luxury Villa Exterior" class="w-full h-80 object-cover">
+                </div>
+                
+                <!-- Gallery Item 2 -->
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Infinity Pool" class="w-full h-80 object-cover">
+                </div>
+                
+                <!-- Gallery Item 3 - FIXED LUXURY BEDROOM -->
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Luxury Bedroom" class="w-full h-80 object-cover">
+                </div>
+                
+                <!-- Gallery Item 4 -->
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Ocean View" class="w-full h-80 object-cover">
+                </div>
+                
+                <!-- Gallery Item 5 -->
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1605146769289-440113cc3d00?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Modern Kitchen" class="w-full h-80 object-cover">
+                </div>
+                
+                <!-- Gallery Item 6 -->
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Luxury Bathroom" class="w-full h-80 object-cover">
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <button class="bg-transparent border-2 border-gold text-gold py-3 px-8 rounded-full text-lg font-medium">
+                    View Full Gallery
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floor Plans Section -->
+    <section id="floorplans" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="section-title text-4xl font-serif font-bold text-deep-blue">
+                    Exquisite Floor Plans
+                </h2>
+                <p class="text-xl text-deep-blue opacity-80 max-w-2xl mx-auto">
+                    Discover thoughtfully designed layouts that maximize space, light, and ocean views.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Floor Plan 1 -->
+                <div class="floor-plan-card bg-beige rounded-xl overflow-hidden border-gold">
+                    <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="3-Bedroom Villa Floor Plan" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-serif font-bold text-deep-blue mb-2">Azure Residence</h3>
+                        <p class="text-gold font-medium mb-4">3 Bedrooms | 3.5 Bathrooms | 3,200 sq.ft.</p>
+                        <p class="text-deep-blue opacity-80 mb-4">Spacious layout with panoramic ocean views, private pool, and expansive terraces.</p>
+                        <button class="btn-gold text-white py-2 px-6 rounded-full font-medium w-full">
+                            Download Floor Plan
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Floor Plan 2 - FIXED 4-BEDROOM VILLA -->
+                <div class="floor-plan-card bg-beige rounded-xl overflow-hidden border-gold">
+                    <img src="https://images.unsplash.com/photo-1588880331179-bc9b93a8cb5e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="4-Bedroom Villa Floor Plan" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-serif font-bold text-deep-blue mb-2">Coastal Grand</h3>
+                        <p class="text-gold font-medium mb-4">4 Bedrooms | 4.5 Bathrooms | 4,500 sq.ft.</p>
+                        <p class="text-deep-blue opacity-80 mb-4">Premium villa with private gym, home theater, and rooftop terrace with jacuzzi.</p>
+                        <button class="btn-gold text-white py-2 px-6 rounded-full font-medium w-full">
+                            Download Floor Plan
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Floor Plan 3 - FIXED 5-BEDROOM VILLA -->
+                <div class="floor-plan-card bg-beige rounded-xl overflow-hidden border-gold">
+                    <img src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="5-Bedroom Villa Floor Plan" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-serif font-bold text-deep-blue mb-2">Oceanfront Estate</h3>
+                        <p class="text-gold font-medium mb-4">5 Bedrooms | 6 Bathrooms | 6,800 sq.ft.</p>
+                        <p class="text-deep-blue opacity-80 mb-4">The ultimate luxury residence with private beach access, infinity pool, and staff quarters.</p>
+                        <button class="btn-gold text-white py-2 px-6 rounded-full font-medium w-full">
+                            Download Floor Plan
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section py-20">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-white rounded-2xl p-8 md:p-12 shadow-2xl">
+                    <div class="text-center mb-10">
+                        <h2 class="text-4xl font-serif font-bold text-deep-blue mb-4">
+                            Experience Azure Coastal
+                        </h2>
+                        <p class="text-xl text-deep-blue opacity-80">
+                            Schedule your private tour today and discover unparalleled coastal luxury.
+                        </p>
+                    </div>
+                    
+                    <form class="space-y-6">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-deep-blue mb-2">Full Name</label>
+                                <input type="text" class="w-full p-4 border border-gray-300 rounded-lg focus:border-gold focus:ring-1 focus:ring-gold" placeholder="Enter your name">
+                            </div>
+                            <div>
+                                <label class="block text-deep-blue mb-2">Phone Number</label>
+                                <input type="tel" class="w-full p-4 border border-gray-300 rounded-lg focus:border-gold focus:ring-1 focus:ring-gold" placeholder="Enter your phone">
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <label class="block text-deep-blue mb-2">Email Address</label>
+                            <input type="email" class="w-full p-4 border border-gray-300 rounded-lg focus:border-gold focus:ring-1 focus:ring-gold" placeholder="Enter your email">
+                        </div>
+                        
+                        <div>
+                            <label class="block text-deep-blue mb-2">Preferred Villa Type</label>
+                            <select class="w-full p-4 border border-gray-300 rounded-lg focus:border-gold focus:ring-1 focus:ring-gold">
+                                <option>3-Bedroom Villa</option>
+                                <option>4-Bedroom Villa</option>
+                                <option>5-Bedroom Estate</option>
+                                <option>Penthouse Residence</option>
+                            </select>
+                        </div>
+                        
+                        <div class="pt-4">
+                            <button type="submit" class="btn-gold text-white py-4 px-8 rounded-full text-lg font-medium w-full">
+                                Request Private Tour
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-deep-blue text-white py-12">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-2xl font-serif font-bold mb-4">Azure Coastal</h3>
+                    <p class="opacity-80 mb-4">Redefining luxury coastal living with unparalleled design and breathtaking ocean views.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gold hover:text-white"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-gold hover:text-white"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gold hover:text-white"><i class="fab fa-pinterest"></i></a>
+                        <a href="#" class="text-gold hover:text-white"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Explore</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="opacity-80 hover:opacity-100 hover:text-gold">Our Villas</a></li>
+                        <li><a href="#" class="opacity-80 hover:opacity-100 hover:text-gold">Amenities</a></li>
+                        <li><a href="#" class="opacity-80 hover:opacity-100 hover:text-gold">Gallery</a></li>
+                        <li><a href="#" class="opacity-80 hover:opacity-100 hover:text-gold">Neighborhood</a></li>
+                        <li><a href="#" class="opacity-80 hover:opacity-100 hover:text-gold">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Information</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="opacity-80 hover:opacity-100 hover:text-gold">Pricing & Availability</a></li>
+                        <li><a href="#" class="opacity-80 hover:opacity-100 hover:text-gold">Virtual Tours</a></li>
+                        <li><a href="#" class="opacity-80 hover:opacity-100 hover:text-gold">Brochure Download</a></li>
+                        <li><a href="#" class="opacity-80 hover:opacity-100 hover:text-gold">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Contact Us</h4>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3 text-gold"></i>
+                            <span class="opacity-80">123 Coastal Drive, Malibu, CA 90265</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone mr-3 text-gold"></i>
+                            <span class="opacity-80">+1 (800) 555-1234</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-3 text-gold"></i>
+                            <span class="opacity-80">info@azurecoastal.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-12 pt-8 text-center opacity-80">
+                <p>&copy; 2023 Azure Coastal Villas. All rights reserved. | Luxury Real Estate Development</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
